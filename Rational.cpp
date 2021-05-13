@@ -7,15 +7,17 @@ int main() {
 		Rational drob;
 		Rational drob1;
 		Rational result;
+		std::cout << "enter numerator denomerator and full part"<< std::endl;
+		
 		std::cin >> drob;
-		result = drob;
-		//std::cin >> drob1;
-		result = result * drob / drob -drob + drob;
-		int a[2323] = {};
-		std::cout << a[0];
+		//drob.setDenomerator(0);
+		std::cin >> drob1;
+		result = drob+drob1;
+		
 		std::cout << result;
 	}
 	catch(const char* error){
 		std::cout << error << std::endl;
 	}
+	return 0;
 }
